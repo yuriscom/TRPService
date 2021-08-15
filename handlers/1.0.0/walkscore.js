@@ -12,7 +12,7 @@ Walkscore.prototype.getWalkScore = function (addr, lat, lng) {
     + '&address=' + addr
     + '&lat=' + lat
     + '&lon=' + lng
-    + '&wsapikey=d5696400d12a4160fb5585c7a85c56d2')
+    + '&wsapikey={APIKEY}')
     .then(function (res) {
       return JSON.parse(res);
     }).catch(function (err) {
@@ -25,7 +25,7 @@ Walkscore.prototype.getTransitScore = function (city, lat, lng) {
     + 'lat=' + lat
     + '&lon=' + lng
     + '&city=' + city
-    + '&country=CA&wsapikey=d5696400d12a4160fb5585c7a85c56d2')
+    + '&country=CA&wsapikey={APIKEY}')
     .then(function (res) {
       return JSON.parse(res);
     }).catch(function (err) {

@@ -79,7 +79,7 @@ module.exports = function (sequelize) {
       return this;
     },
     getGooglePlaces: function () {
-      return rp('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + this.lat + ',' + this.lng + '&types=park|subway_station|train_station|grocery_or_supermarket|bus_station|convenience_store|shopping_mall&rankby=distance&key=AIzaSyALkHoD1bc9dJnvbri3PaU3uraf2gJQ684')
+      return rp('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + this.lat + ',' + this.lng + '&types=park|subway_station|train_station|grocery_or_supermarket|bus_station|convenience_store|shopping_mall&rankby=distance&key=APIKEY')
         .then(function (res) {
           return JSON.parse(res);
           //console.log(res);

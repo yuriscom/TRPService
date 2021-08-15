@@ -8,7 +8,7 @@ var environments = require(PATH + '/configuration/environments.json')
   , environment = environments[ process.env.NODE_ENV || 'production' ]
   , when = require('when');
 
-var apiKey = '7272KY9Vj9tKKHpX3k5KzgZtGQYuyw';
+var apiKey = '{APIKEY}';
 
 Contact.prototype.version = '1.0.1';
 
