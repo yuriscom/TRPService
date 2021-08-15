@@ -71,7 +71,7 @@ Landmark.prototype.getPlaces = function (key, placesParams) {
   var self = this;
 
   return rp('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + this.lat + ',' + this.lng +
-    '&types=' + placesParams + '&rankby=distance&key=AIzaSyBk2hngfKQ9yWqeMh0ad-_0xcjXtQQy6PU')
+    '&types=' + placesParams + '&rankby=distance&key={GOOGLE_CODE}')
     .then(function (res) {
       var object = {};
       res = JSON.parse(res);
