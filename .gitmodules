@@ -1,0 +1,3 @@
+[submodule "lib/sequelize"]
+	path = lib/sequelize
+	url = git@github.com:TheRedPin/sequelize.git

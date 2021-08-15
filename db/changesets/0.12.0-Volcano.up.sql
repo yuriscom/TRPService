@@ -1,0 +1,1 @@
+UPDATE `theredpin`.`main_city` SET `name` = 'Hamilton Township', `web_id` = 'hamilton-township' WHERE `id` = 1206;

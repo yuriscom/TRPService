@@ -1,0 +1,2 @@
+delete from url_forward where orig_url = '/home-buying-reinvented' and forward_url = '/buying-a-home';
+delete from url_forward where orig_url = '/selling-a-home/free-professional-home-valuation' and forward_url = '/selling-a-home';

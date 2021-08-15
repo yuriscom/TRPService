@@ -1,0 +1,15 @@
+SET foreign_key_checks = 0;
+drop table if exists exclusive_property_style;
+drop table if exists exclusive_property_status;
+drop table if exists exclusive_property_ownership;
+drop table if exists exclusive_property_trp_type;
+drop table if exists exclusive_property_sale_type;
+drop table if exists exclusive_property_type;
+drop table if exists exclusive_property;
+drop table if exists exclusive_property_spec_des;
+drop table if exists exclusive_property_parking;
+drop table if exists exclusive_property_room;
+drop table if exists exclusive_property_feature;
+drop table if exists exclusive_property_building_amenity;
+drop table if exists exclusive_property_bathroom;
+SET foreign_key_checks = 1;

@@ -1,0 +1,1 @@
+UPDATE `theredpin`.`url_forward` SET `is_active`=0 WHERE `orig_url`='/careers';

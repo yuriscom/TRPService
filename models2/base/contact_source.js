@@ -1,0 +1,41 @@
+/* jshint indent: 2 */
+
+module.exports = function(sequelize, DataTypes) {
+  return sequelize.define('contact_source', {
+    id: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    name: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    sys_name: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    active_on_backend: {
+      type: DataTypes.INTEGER(4),
+      allowNull: true,
+      defaultValue: '0'
+    },
+    notes: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    updated_on: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: 'CURRENT_TIMESTAMP'
+    },
+    created_on: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: '0000-00-00 00:00:00'
+    }
+  }, {
+    tableName: 'contact_source'
+  });
+};

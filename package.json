@@ -1,0 +1,40 @@
+{
+  "name": "TheRedPin",
+  "version": "2.0.0",
+  "description": "TheRedPin application service",
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "postinstall": "(cd lib/sequelize; npm install)"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "cache-manager": "^2.0.1",
+    "cache-manager-memcached": "0.0.3",
+    "crypto": "0.0.3",
+    "csv-write-stream": "^1.0.0",
+    "lodash": "^2.4.1",
+    "moment": "^2.11.1",
+    "mongodb": "^1.4.20",
+    "mysql": "^2.10.2",
+    "node-restify-validation": "0.1.0",
+    "oauth2orize": "^1.0.1",
+    "passport": "^0.2.1",
+    "passport-http": "^0.2.2",
+    "passport-http-bearer": "^1.0.1",
+    "passport-oauth2-client-password": "^0.1.2",
+    "q-io": "^1.11.6",
+    "request-promise": "^0.3.3",
+    "restify": "^2.8.2",
+    "sequelize": "^3.23.2",
+    "sequelize-cli": "^2.4.0",
+    "underscore": "^1.7.0",
+    "underscore.string": "^2.3.3",
+    "when": "^3.5.0",
+    "winston": "^1.0.0"
+  },
+  "devDependencies": {}
+}

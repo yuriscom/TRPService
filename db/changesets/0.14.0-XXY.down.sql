@@ -1,0 +1,1 @@
+Call DropIndex('url_forward','url_forward__orig_url_idx');

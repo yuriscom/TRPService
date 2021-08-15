@@ -1,0 +1,9 @@
+UPDATE `theredpin`.`property_trp_type` SET `name` = 'Detached', `sys_name` = 'detached' WHERE `id` = 1;
+UPDATE `theredpin`.`property_trp_type` SET `name` = 'Semi-detached', `sys_name` = 'semi-detached' WHERE `id` = 2;
+UPDATE `theredpin`.`property_trp_type` SET `name` = 'Townhome', `sys_name` = 'townhome' WHERE `id` = 3;
+UPDATE `theredpin`.`property_trp_type` SET `name` = 'Apartment', `sys_name` = 'apartment' WHERE `id` = 4;
+UPDATE `theredpin`.`property_trp_type` SET `name` = 'Multiplex', `sys_name` = 'multiplex' WHERE `id` = 5;
+UPDATE `theredpin`.`property_trp_type` SET `name` = 'Lofts', `sys_name` = 'lofts' WHERE `id` = 6;
+UPDATE `theredpin`.`property_trp_type` SET `name` = 'Bungalows', `sys_name` = 'bungalows' WHERE `id` = 7;
+UPDATE `theredpin`.`property_trp_type` SET `name` = 'Cottage', `sys_name` = 'cottage' WHERE `id` = 8;
+UPDATE `theredpin`.`property_trp_type` SET `name` = 'Other', `sys_name` = 'other' WHERE `id` = 9;
